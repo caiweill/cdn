@@ -6,6 +6,6 @@ function showhidediv(id){var sbtitle=document.getElementById(id);if(sbtitle){if(
 
 pangu.spacingElementById('post-content');pangu.spacingElementByClassName('post-header-thumb-title');pangu.spacingElementByClassName('meta-comments');pangu.spacingElementByClassName('comment-content');
 
-function checkboxOnclick(checkbox){if(checkbox.checked==true){Dialog.init('开启私密评论后，提交的评论仅文章作者和评论人可见！',1800);document.getElementById('textarea').style.backgroundImage="url(/usr/themes/pinghsu/images/simi.png)";}else{document.getElementById('textarea').style.backgroundImage="none";}};
+function checkboxOnclick(checkbox){if(checkbox.checked==true){Dialog.init('开启私密评论后，提交的评论仅文章作者和评论人可见！',1800);document.getElementById('textarea').style.backgroundImage="url(https://cdn.jsdelivr.net/gh/caiweill/cdn/pinghsu/images/simi.png)";}else{document.getElementById('textarea').style.backgroundImage="none";}};
 
 document.body.oncopy = function() {Dialog.init('<i class="fa fa-files-o" aria-hidden="true"></i> 您已复制成功，若要转载请务必保留原文链接！尊重他人劳动成果，谢谢！',2000);};
