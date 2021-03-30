@@ -1,1 +1,1 @@
-# cdn https://cdn.jsdelivr.net/gh/caiweill/cdn
+# cdn https://cdn.jsdelivr.net/gh/caiweill/cdn@latest/
