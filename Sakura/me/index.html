@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>I'm Mashiro!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="theme-color" content="#222022">
+    <link rel="shortcut icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./botui/build/botui.min.css" />
+    <link rel="stylesheet" href="./botui/build/botui-theme.css" />
+</head>
+
+<body>
+    <div class="poptitle" id="poptitle">
+        <div class="popcontainer" id="hello-mashiro">
+            <center>
+                <h3>正在与&nbsp;
+                    <ruby>Mashiro&nbsp;
+                        <rp>（</rp>
+                        <rt>真（ま）白（しろ）</rt>
+                        <rp>）</rp>
+                    </ruby>对话...</h3>
+            </center>
+            <bot-ui></bot-ui>
+        </div>
+    </div>
+    <script src="./botui/build/vue.min.js"></script>
+    <script src="./botui/build/botui.min.js"></script>
+    <script src="./botui/build/single-4.js"></script>
+
+    <script>
+        function updateScroll() {
+            var element = document.getElementById("poptitle");
+            element.scrollTop = element.scrollHeight;
+        }
+    </script>
+</body>
+
+</html>
